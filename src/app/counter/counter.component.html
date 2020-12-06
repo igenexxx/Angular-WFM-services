@@ -1,0 +1,19 @@
+<h2>Global</h2>
+
+<div class="card">
+    <h2>App Counter: {{ globalCounter.counter }}</h2>
+
+    <button class="btn" (click)="globalCounter.increase()">+</button>
+    <button class="btn" (click)="globalCounter.decrease()">-</button>
+
+</div>
+
+<h2>Local</h2>
+
+<div class="card">
+    <h2>App Counter: {{ localCounter.counter }}</h2>
+
+    <button class="btn" (click)="localCounter.increase()">+</button>
+    <button class="btn" (click)="localCounter.decrease()">-</button>
+
+</div>
